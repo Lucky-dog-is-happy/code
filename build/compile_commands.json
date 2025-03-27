@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/lucky/Sync/Notes/04 Code/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Neural_networks.dir/includes_CXX.rsp -g -o CMakeFiles\\Neural_networks.dir\\src\\main.cc.obj -c \"C:\\Users\\lucky\\Sync\\Notes\\04 Code\\neural networks\\src\\main.cc\"",
+  "file": "C:/Users/lucky/Sync/Notes/04 Code/neural networks/src/main.cc",
+  "output": "CMakeFiles/Neural_networks.dir/src/main.cc.obj"
+},
+{
+  "directory": "C:/Users/lucky/Sync/Notes/04 Code/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Neural_networks.dir/includes_CXX.rsp -g -o CMakeFiles\\Neural_networks.dir\\src\\transfer_function.cc.obj -c \"C:\\Users\\lucky\\Sync\\Notes\\04 Code\\neural networks\\src\\transfer_function.cc\"",
+  "file": "C:/Users/lucky/Sync/Notes/04 Code/neural networks/src/transfer_function.cc",
+  "output": "CMakeFiles/Neural_networks.dir/src/transfer_function.cc.obj"
+}
+]
