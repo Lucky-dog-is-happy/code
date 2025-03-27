@@ -1,0 +1,3 @@
+C:/Users/lucky/Sync/Notes/04 Code/neural networks/build/CMakeFiles/Neural_networks.dir
+C:/Users/lucky/Sync/Notes/04 Code/neural networks/build/CMakeFiles/edit_cache.dir
+C:/Users/lucky/Sync/Notes/04 Code/neural networks/build/CMakeFiles/rebuild_cache.dir
