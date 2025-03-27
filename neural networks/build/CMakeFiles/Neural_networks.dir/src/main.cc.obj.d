@@ -1,4 +1,4 @@
-CMakeFiles/Neural_networks.dir/src/main.cc.obj: \
+CMakeFiles/neural_networks.dir/src/main.cc.obj: \
  C:\Users\lucky\Sync\Notes\04\ Code\neural\ networks\src\main.cc \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -132,6 +132,9 @@ CMakeFiles/Neural_networks.dir/src/main.cc.obj: \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
- C:/Users/lucky/Sync/Notes/04CODE~1/NEURAL~1/include/transfer_function.hh \
  C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
- C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/math.h
+ C:/PROGRA~1/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/Users/lucky/Sync/Notes/04CODE~1/NEURAL~1/include/transfer_function.hh \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ C:/PROGRA~1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h

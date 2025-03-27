@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = "C:\Users\lucky\Sync\Notes\04 Code\neural networks\build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Neural_networks.dir/all
+all: CMakeFiles/neural_networks.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/Neural_networks.dir/codegen
+codegen: CMakeFiles/neural_networks.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Neural_networks.dir/clean
+clean: CMakeFiles/neural_networks.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Neural_networks.dir
+# Target rules for target CMakeFiles/neural_networks.dir
 
 # All Build rule for target.
-CMakeFiles/Neural_networks.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\lucky\Sync\Notes\04 Code\neural networks\build\CMakeFiles" --progress-num=1,2,3 "Built target Neural_networks"
-.PHONY : CMakeFiles/Neural_networks.dir/all
+CMakeFiles/neural_networks.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\lucky\Sync\Notes\04 Code\neural networks\build\CMakeFiles" --progress-num=1,2,3 "Built target neural_networks"
+.PHONY : CMakeFiles/neural_networks.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Neural_networks.dir/rule: cmake_check_build_system
+CMakeFiles/neural_networks.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\lucky\Sync\Notes\04 Code\neural networks\build\CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Neural_networks.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/neural_networks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\lucky\Sync\Notes\04 Code\neural networks\build\CMakeFiles" 0
-.PHONY : CMakeFiles/Neural_networks.dir/rule
+.PHONY : CMakeFiles/neural_networks.dir/rule
 
 # Convenience name for target.
-Neural_networks: CMakeFiles/Neural_networks.dir/rule
-.PHONY : Neural_networks
+neural_networks: CMakeFiles/neural_networks.dir/rule
+.PHONY : neural_networks
 
 # codegen rule for target.
-CMakeFiles/Neural_networks.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\lucky\Sync\Notes\04 Code\neural networks\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target Neural_networks"
-.PHONY : CMakeFiles/Neural_networks.dir/codegen
+CMakeFiles/neural_networks.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\lucky\Sync\Notes\04 Code\neural networks\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target neural_networks"
+.PHONY : CMakeFiles/neural_networks.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Neural_networks.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/clean
-.PHONY : CMakeFiles/Neural_networks.dir/clean
+CMakeFiles/neural_networks.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/clean
+.PHONY : CMakeFiles/neural_networks.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

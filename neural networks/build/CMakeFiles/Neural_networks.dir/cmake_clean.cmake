@@ -1,15 +1,15 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Neural_networks.dir/src/main.cc.obj"
-  "CMakeFiles/Neural_networks.dir/src/main.cc.obj.d"
-  "CMakeFiles/Neural_networks.dir/src/transfer_function.cc.obj"
-  "CMakeFiles/Neural_networks.dir/src/transfer_function.cc.obj.d"
-  "Neural_networks.exe"
-  "Neural_networks.exe.manifest"
-  "Neural_networks.pdb"
-  "libNeural_networks.dll.a"
+  "CMakeFiles/neural_networks.dir/src/main.cc.obj"
+  "CMakeFiles/neural_networks.dir/src/main.cc.obj.d"
+  "CMakeFiles/neural_networks.dir/src/transfer_function.cc.obj"
+  "CMakeFiles/neural_networks.dir/src/transfer_function.cc.obj.d"
+  "libneural_networks.dll.a"
+  "neural_networks.exe"
+  "neural_networks.exe.manifest"
+  "neural_networks.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Neural_networks.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/neural_networks.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -1,69 +1,60 @@
 #include "transfer_function.hh"
 
-Type hardlim(Type n)
+namespace TransferFunction
 {
-    if (n < 0)
-        return 0;
-    else
-        return 1;
-}
+    const std::array<std::string, FunctionCount> FunctionNames = {
+        "hardlim", "hardlims",
+        "purelin", "satlin",
+        "satlins", "logsig",
+        "tansig", "poslin"};
 
-Type hardlims(Type n)
-{
-    if (n < 0)
-        return -1;
-    else
-        return 1;
-}
+    ValueType hardlim(ValueType n)
+    {
+        return (n >= 0) ? 1 : 0;
+    }
 
-Type purelin(Type n)
-{
-    return n;
-}
+    ValueType hardlims(ValueType n)
+    {
+        return (n >= 0) ? 1 : -1;
+    }
 
-Type satlin(Type n)
-{
-    if (n < 0)
-        return 0;
-    else if (n > 1)
-        return 1;
-    else
+    ValueType purelin(ValueType n)
+    {
         return n;
+    }
+
+    ValueType satlin(ValueType n)
+    {
+        if (n < 0)
+            return 0;
+        else if (n > 1)
+            return 1;
+        else
+            return n;
+    }
+
+    ValueType satlins(ValueType n)
+    {
+        if (n < -1)
+            return -1;
+        else if (n > 1)
+            return 1;
+        else
+            return n;
+    }
+
+    ValueType logsig(ValueType n)
+    {
+        return 1.0 / (1.0 + std::exp(-n));
+    }
+
+    ValueType tansig(ValueType n)
+    {
+        return (std::exp(n) - std::exp(-n)) / (std::exp(n) + std::exp(-n));
+    }
+
+    ValueType poslin(ValueType n)
+    {
+        return (n >= 0) ? n : 0;
+    }
 }
-
-Type satlins(Type n)
-{
-    if (n < -1)
-        return -1;
-    else if (n > 1)
-        return 1;
-    else
-        return n;
-}
-
-Type logsig(Type n)
-{
-    Type a = 1 / (1 + exp(-n));
-    return a;
-}
-
-Type tansig(Type n)
-{
-    Type a = (exp(n) - exp(-n)) / (exp(n) + exp(-n));
-    return a;
-}
-
-Type poslin(Type n)
-{
-    if (n < 0)
-        return 0;
-    else
-        return n;
-}
-
-// Type compete()
-// {
-//     if(max(n)) return 1;
-//     else return 0;
-// }
-

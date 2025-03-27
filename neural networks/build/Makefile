@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Neural_networks
+# Target rules for targets named neural_networks
 
 # Build rule for target.
-Neural_networks: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Neural_networks
-.PHONY : Neural_networks
+neural_networks: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 neural_networks
+.PHONY : neural_networks
 
 # fast build rule for target.
-Neural_networks/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/build
-.PHONY : Neural_networks/fast
+neural_networks/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/build
+.PHONY : neural_networks/fast
 
 src/main.obj: src/main.cc.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/src/main.cc.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/src/main.cc.obj
 .PHONY : src/main.cc.obj
 
 src/main.i: src/main.cc.i
@@ -141,7 +141,7 @@ src/main.i: src/main.cc.i
 
 # target to preprocess a source file
 src/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/src/main.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/src/main.cc.i
 .PHONY : src/main.cc.i
 
 src/main.s: src/main.cc.s
@@ -149,7 +149,7 @@ src/main.s: src/main.cc.s
 
 # target to generate assembly for a file
 src/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/src/main.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
 src/transfer_function.obj: src/transfer_function.cc.obj
@@ -157,7 +157,7 @@ src/transfer_function.obj: src/transfer_function.cc.obj
 
 # target to build an object file
 src/transfer_function.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/src/transfer_function.cc.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/src/transfer_function.cc.obj
 .PHONY : src/transfer_function.cc.obj
 
 src/transfer_function.i: src/transfer_function.cc.i
@@ -165,7 +165,7 @@ src/transfer_function.i: src/transfer_function.cc.i
 
 # target to preprocess a source file
 src/transfer_function.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/src/transfer_function.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/src/transfer_function.cc.i
 .PHONY : src/transfer_function.cc.i
 
 src/transfer_function.s: src/transfer_function.cc.s
@@ -173,7 +173,7 @@ src/transfer_function.s: src/transfer_function.cc.s
 
 # target to generate assembly for a file
 src/transfer_function.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Neural_networks.dir\build.make CMakeFiles/Neural_networks.dir/src/transfer_function.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neural_networks.dir\build.make CMakeFiles/neural_networks.dir/src/transfer_function.cc.s
 .PHONY : src/transfer_function.cc.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Neural_networks
+	@echo ... neural_networks
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

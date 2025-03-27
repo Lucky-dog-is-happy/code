@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files/mingw64/bin/c++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/Neural_networks.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/neural_networks.dir/includes_CXX.rsp
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++11
 
